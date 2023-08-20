@@ -9,13 +9,39 @@
 /* Begin PBXBuildFile section */
 		DDE1BBCD2A8B641500E5AC8D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDE1BBCC2A8B641500E5AC8D /* AppDelegate.swift */; };
 		DDE1BBCF2A8B641500E5AC8D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDE1BBCE2A8B641500E5AC8D /* SceneDelegate.swift */; };
-		DDE1BBD12A8B641500E5AC8D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDE1BBD02A8B641500E5AC8D /* ViewController.swift */; };
-		DDE1BBD42A8B641500E5AC8D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDE1BBD22A8B641500E5AC8D /* Main.storyboard */; };
+		DDE1BBD12A8B641500E5AC8D /* CalculatorVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDE1BBD02A8B641500E5AC8D /* CalculatorVC.swift */; };
 		DDE1BBD62A8B641700E5AC8D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DDE1BBD52A8B641700E5AC8D /* Assets.xcassets */; };
 		DDE1BBD92A8B641700E5AC8D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDE1BBD72A8B641700E5AC8D /* LaunchScreen.storyboard */; };
 		DDE1BBE42A8B641700E5AC8D /* Tip_CalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDE1BBE32A8B641700E5AC8D /* Tip_CalculatorTests.swift */; };
 		DDE1BBEE2A8B641700E5AC8D /* Tip_CalculatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDE1BBED2A8B641700E5AC8D /* Tip_CalculatorUITests.swift */; };
 		DDE1BBF02A8B641700E5AC8D /* Tip_CalculatorUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDE1BBEF2A8B641700E5AC8D /* Tip_CalculatorUITestsLaunchTests.swift */; };
+		DDE1BC012A8B64BD00E5AC8D /* CombineCocoa in Frameworks */ = {isa = PBXBuildFile; productRef = DDE1BC002A8B64BD00E5AC8D /* CombineCocoa */; };
+		DDE1BC042A8B64E300E5AC8D /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = DDE1BC032A8B64E300E5AC8D /* SnapKit */; };
+		DDE1BC072A8B653D00E5AC8D /* CombineCocoa in Frameworks */ = {isa = PBXBuildFile; productRef = DDE1BC062A8B653D00E5AC8D /* CombineCocoa */; };
+		DDE1BC0A2A8B659700E5AC8D /* SnapshotTesting in Frameworks */ = {isa = PBXBuildFile; productRef = DDE1BC092A8B659700E5AC8D /* SnapshotTesting */; };
+		DDE1BC0C2A8B65B800E5AC8D /* CombineCocoa in Frameworks */ = {isa = PBXBuildFile; productRef = DDE1BC0B2A8B65B800E5AC8D /* CombineCocoa */; };
+		DDE1BC0F2A8B686200E5AC8D /* LogoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDE1BC0E2A8B686200E5AC8D /* LogoView.swift */; };
+		DDE1BC112A8B699600E5AC8D /* ResultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDE1BC102A8B699600E5AC8D /* ResultView.swift */; };
+		DDE1BC132A8B69D000E5AC8D /* BillInputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDE1BC122A8B69D000E5AC8D /* BillInputView.swift */; };
+		DDE1BC152A8B69EC00E5AC8D /* TipInputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDE1BC142A8B69EC00E5AC8D /* TipInputView.swift */; };
+		DDE1BC172A8B6A0300E5AC8D /* SplitInputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDE1BC162A8B6A0300E5AC8D /* SplitInputView.swift */; };
+		DDE1BC1A2A8B761600E5AC8D /* ThemeColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDE1BC192A8B761600E5AC8D /* ThemeColor.swift */; };
+		DDE1BC1C2A8B762000E5AC8D /* ThemeFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDE1BC1B2A8B762000E5AC8D /* ThemeFont.swift */; };
+		DDE1BC1F2A8B766100E5AC8D /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDE1BC1E2A8B766100E5AC8D /* UIColor+Extension.swift */; };
+		DDE1BC222A8B7BBB00E5AC8D /* LabelFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDE1BC212A8B7BBB00E5AC8D /* LabelFactory.swift */; };
+		DDE1BC242A8B87C000E5AC8D /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDE1BC232A8B87C000E5AC8D /* UIView+Extension.swift */; };
+		DDE1BC262A8B8DFF00E5AC8D /* AmountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDE1BC252A8B8DFF00E5AC8D /* AmountView.swift */; };
+		DDE1BC282A8B95CE00E5AC8D /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDE1BC272A8B95CE00E5AC8D /* HeaderView.swift */; };
+		DDE1BC2B2A8B9B8800E5AC8D /* Tip.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDE1BC2A2A8B9B8800E5AC8D /* Tip.swift */; };
+		DDE1BC2E2A8BA02F00E5AC8D /* CalculatorVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDE1BC2D2A8BA02F00E5AC8D /* CalculatorVM.swift */; };
+		DDE1BC302A8BA15500E5AC8D /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDE1BC2F2A8BA15500E5AC8D /* Result.swift */; };
+		DDE1BC322A8BBB1000E5AC8D /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDE1BC312A8BBB1000E5AC8D /* String+Extension.swift */; };
+		DDE1BC342A8BC91400E5AC8D /* UIResponder+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDE1BC332A8BC91400E5AC8D /* UIResponder+Extension.swift */; };
+		DDE1BC362A8BE53A00E5AC8D /* Int+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDE1BC352A8BE53A00E5AC8D /* Int+Extension.swift */; };
+		DDE1BC382A8BEC7300E5AC8D /* Double+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDE1BC372A8BEC7300E5AC8D /* Double+Extension.swift */; };
+		DDE1BC3B2A8BF35200E5AC8D /* click.m4a in Resources */ = {isa = PBXBuildFile; fileRef = DDE1BC3A2A8BF35200E5AC8D /* click.m4a */; };
+		DDE1BC3E2A8BF37900E5AC8D /* AudioPlayerService.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDE1BC3D2A8BF37900E5AC8D /* AudioPlayerService.swift */; };
+		DDE1BC402A8C1AD200E5AC8D /* Tip_CalculatorSnapshotTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDE1BC3F2A8C1AD100E5AC8D /* Tip_CalculatorSnapshotTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,8 +65,7 @@
 		DDE1BBC92A8B641500E5AC8D /* Tip-Calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Tip-Calculator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DDE1BBCC2A8B641500E5AC8D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DDE1BBCE2A8B641500E5AC8D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		DDE1BBD02A8B641500E5AC8D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		DDE1BBD32A8B641500E5AC8D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DDE1BBD02A8B641500E5AC8D /* CalculatorVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorVC.swift; sourceTree = "<group>"; };
 		DDE1BBD52A8B641700E5AC8D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DDE1BBD82A8B641700E5AC8D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DDE1BBDA2A8B641700E5AC8D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -49,6 +74,28 @@
 		DDE1BBE92A8B641700E5AC8D /* Tip-CalculatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tip-CalculatorUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DDE1BBED2A8B641700E5AC8D /* Tip_CalculatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tip_CalculatorUITests.swift; sourceTree = "<group>"; };
 		DDE1BBEF2A8B641700E5AC8D /* Tip_CalculatorUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tip_CalculatorUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		DDE1BC0E2A8B686200E5AC8D /* LogoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogoView.swift; sourceTree = "<group>"; };
+		DDE1BC102A8B699600E5AC8D /* ResultView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultView.swift; sourceTree = "<group>"; };
+		DDE1BC122A8B69D000E5AC8D /* BillInputView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BillInputView.swift; sourceTree = "<group>"; };
+		DDE1BC142A8B69EC00E5AC8D /* TipInputView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipInputView.swift; sourceTree = "<group>"; };
+		DDE1BC162A8B6A0300E5AC8D /* SplitInputView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplitInputView.swift; sourceTree = "<group>"; };
+		DDE1BC192A8B761600E5AC8D /* ThemeColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeColor.swift; sourceTree = "<group>"; };
+		DDE1BC1B2A8B762000E5AC8D /* ThemeFont.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeFont.swift; sourceTree = "<group>"; };
+		DDE1BC1E2A8B766100E5AC8D /* UIColor+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
+		DDE1BC212A8B7BBB00E5AC8D /* LabelFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabelFactory.swift; sourceTree = "<group>"; };
+		DDE1BC232A8B87C000E5AC8D /* UIView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
+		DDE1BC252A8B8DFF00E5AC8D /* AmountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmountView.swift; sourceTree = "<group>"; };
+		DDE1BC272A8B95CE00E5AC8D /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		DDE1BC2A2A8B9B8800E5AC8D /* Tip.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tip.swift; sourceTree = "<group>"; };
+		DDE1BC2D2A8BA02F00E5AC8D /* CalculatorVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorVM.swift; sourceTree = "<group>"; };
+		DDE1BC2F2A8BA15500E5AC8D /* Result.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Result.swift; sourceTree = "<group>"; };
+		DDE1BC312A8BBB1000E5AC8D /* String+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extension.swift"; sourceTree = "<group>"; };
+		DDE1BC332A8BC91400E5AC8D /* UIResponder+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIResponder+Extension.swift"; sourceTree = "<group>"; };
+		DDE1BC352A8BE53A00E5AC8D /* Int+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Int+Extension.swift"; sourceTree = "<group>"; };
+		DDE1BC372A8BEC7300E5AC8D /* Double+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Double+Extension.swift"; sourceTree = "<group>"; };
+		DDE1BC3A2A8BF35200E5AC8D /* click.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = click.m4a; sourceTree = "<group>"; };
+		DDE1BC3D2A8BF37900E5AC8D /* AudioPlayerService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioPlayerService.swift; sourceTree = "<group>"; };
+		DDE1BC3F2A8C1AD100E5AC8D /* Tip_CalculatorSnapshotTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tip_CalculatorSnapshotTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +103,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DDE1BC012A8B64BD00E5AC8D /* CombineCocoa in Frameworks */,
+				DDE1BC042A8B64E300E5AC8D /* SnapKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +112,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DDE1BC072A8B653D00E5AC8D /* CombineCocoa in Frameworks */,
+				DDE1BC0A2A8B659700E5AC8D /* SnapshotTesting in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,6 +121,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DDE1BC0C2A8B65B800E5AC8D /* CombineCocoa in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +135,7 @@
 				DDE1BBE22A8B641700E5AC8D /* Tip-CalculatorTests */,
 				DDE1BBEC2A8B641700E5AC8D /* Tip-CalculatorUITests */,
 				DDE1BBCA2A8B641500E5AC8D /* Products */,
+				DDE1BC052A8B653D00E5AC8D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,10 +152,17 @@
 		DDE1BBCB2A8B641500E5AC8D /* Tip-Calculator */ = {
 			isa = PBXGroup;
 			children = (
+				DDE1BC3C2A8BF36900E5AC8D /* Service */,
+				DDE1BC392A8BF31600E5AC8D /* Resource */,
+				DDE1BC2C2A8BA02300E5AC8D /* ViewModel */,
+				DDE1BC292A8B9B7500E5AC8D /* Model */,
+				DDE1BC202A8B7BAE00E5AC8D /* Factory */,
+				DDE1BC1D2A8B764E00E5AC8D /* Extension */,
+				DDE1BC182A8B760200E5AC8D /* Config */,
+				DDE1BC0D2A8B684800E5AC8D /* View */,
 				DDE1BBCC2A8B641500E5AC8D /* AppDelegate.swift */,
 				DDE1BBCE2A8B641500E5AC8D /* SceneDelegate.swift */,
-				DDE1BBD02A8B641500E5AC8D /* ViewController.swift */,
-				DDE1BBD22A8B641500E5AC8D /* Main.storyboard */,
+				DDE1BBD02A8B641500E5AC8D /* CalculatorVC.swift */,
 				DDE1BBD52A8B641700E5AC8D /* Assets.xcassets */,
 				DDE1BBD72A8B641700E5AC8D /* LaunchScreen.storyboard */,
 				DDE1BBDA2A8B641700E5AC8D /* Info.plist */,
@@ -114,6 +174,7 @@
 			isa = PBXGroup;
 			children = (
 				DDE1BBE32A8B641700E5AC8D /* Tip_CalculatorTests.swift */,
+				DDE1BC3F2A8C1AD100E5AC8D /* Tip_CalculatorSnapshotTests.swift */,
 			);
 			path = "Tip-CalculatorTests";
 			sourceTree = "<group>";
@@ -125,6 +186,90 @@
 				DDE1BBEF2A8B641700E5AC8D /* Tip_CalculatorUITestsLaunchTests.swift */,
 			);
 			path = "Tip-CalculatorUITests";
+			sourceTree = "<group>";
+		};
+		DDE1BC052A8B653D00E5AC8D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DDE1BC0D2A8B684800E5AC8D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				DDE1BC0E2A8B686200E5AC8D /* LogoView.swift */,
+				DDE1BC102A8B699600E5AC8D /* ResultView.swift */,
+				DDE1BC122A8B69D000E5AC8D /* BillInputView.swift */,
+				DDE1BC142A8B69EC00E5AC8D /* TipInputView.swift */,
+				DDE1BC162A8B6A0300E5AC8D /* SplitInputView.swift */,
+				DDE1BC252A8B8DFF00E5AC8D /* AmountView.swift */,
+				DDE1BC272A8B95CE00E5AC8D /* HeaderView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		DDE1BC182A8B760200E5AC8D /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				DDE1BC192A8B761600E5AC8D /* ThemeColor.swift */,
+				DDE1BC1B2A8B762000E5AC8D /* ThemeFont.swift */,
+			);
+			path = Config;
+			sourceTree = "<group>";
+		};
+		DDE1BC1D2A8B764E00E5AC8D /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				DDE1BC1E2A8B766100E5AC8D /* UIColor+Extension.swift */,
+				DDE1BC232A8B87C000E5AC8D /* UIView+Extension.swift */,
+				DDE1BC312A8BBB1000E5AC8D /* String+Extension.swift */,
+				DDE1BC332A8BC91400E5AC8D /* UIResponder+Extension.swift */,
+				DDE1BC352A8BE53A00E5AC8D /* Int+Extension.swift */,
+				DDE1BC372A8BEC7300E5AC8D /* Double+Extension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		DDE1BC202A8B7BAE00E5AC8D /* Factory */ = {
+			isa = PBXGroup;
+			children = (
+				DDE1BC212A8B7BBB00E5AC8D /* LabelFactory.swift */,
+			);
+			path = Factory;
+			sourceTree = "<group>";
+		};
+		DDE1BC292A8B9B7500E5AC8D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				DDE1BC2A2A8B9B8800E5AC8D /* Tip.swift */,
+				DDE1BC2F2A8BA15500E5AC8D /* Result.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		DDE1BC2C2A8BA02300E5AC8D /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				DDE1BC2D2A8BA02F00E5AC8D /* CalculatorVM.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		DDE1BC392A8BF31600E5AC8D /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				DDE1BC3A2A8BF35200E5AC8D /* click.m4a */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		DDE1BC3C2A8BF36900E5AC8D /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				DDE1BC3D2A8BF37900E5AC8D /* AudioPlayerService.swift */,
+			);
+			path = Service;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -143,6 +288,10 @@
 			dependencies = (
 			);
 			name = "Tip-Calculator";
+			packageProductDependencies = (
+				DDE1BC002A8B64BD00E5AC8D /* CombineCocoa */,
+				DDE1BC032A8B64E300E5AC8D /* SnapKit */,
+			);
 			productName = "Tip-Calculator";
 			productReference = DDE1BBC92A8B641500E5AC8D /* Tip-Calculator.app */;
 			productType = "com.apple.product-type.application";
@@ -161,6 +310,10 @@
 				DDE1BBE12A8B641700E5AC8D /* PBXTargetDependency */,
 			);
 			name = "Tip-CalculatorTests";
+			packageProductDependencies = (
+				DDE1BC062A8B653D00E5AC8D /* CombineCocoa */,
+				DDE1BC092A8B659700E5AC8D /* SnapshotTesting */,
+			);
 			productName = "Tip-CalculatorTests";
 			productReference = DDE1BBDF2A8B641700E5AC8D /* Tip-CalculatorTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
@@ -179,6 +332,9 @@
 				DDE1BBEB2A8B641700E5AC8D /* PBXTargetDependency */,
 			);
 			name = "Tip-CalculatorUITests";
+			packageProductDependencies = (
+				DDE1BC0B2A8B65B800E5AC8D /* CombineCocoa */,
+			);
 			productName = "Tip-CalculatorUITests";
 			productReference = DDE1BBE92A8B641700E5AC8D /* Tip-CalculatorUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
@@ -215,6 +371,11 @@
 				Base,
 			);
 			mainGroup = DDE1BBC02A8B641400E5AC8D;
+			packageReferences = (
+				DDE1BBFF2A8B64BD00E5AC8D /* XCRemoteSwiftPackageReference "CombineCocoa" */,
+				DDE1BC022A8B64E300E5AC8D /* XCRemoteSwiftPackageReference "SnapKit" */,
+				DDE1BC082A8B659700E5AC8D /* XCRemoteSwiftPackageReference "swift-snapshot-testing" */,
+			);
 			productRefGroup = DDE1BBCA2A8B641500E5AC8D /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -231,9 +392,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DDE1BC3B2A8BF35200E5AC8D /* click.m4a in Resources */,
 				DDE1BBD92A8B641700E5AC8D /* LaunchScreen.storyboard in Resources */,
 				DDE1BBD62A8B641700E5AC8D /* Assets.xcassets in Resources */,
-				DDE1BBD42A8B641500E5AC8D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,9 +419,29 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DDE1BBD12A8B641500E5AC8D /* ViewController.swift in Sources */,
+				DDE1BC302A8BA15500E5AC8D /* Result.swift in Sources */,
+				DDE1BC2E2A8BA02F00E5AC8D /* CalculatorVM.swift in Sources */,
+				DDE1BC262A8B8DFF00E5AC8D /* AmountView.swift in Sources */,
+				DDE1BC362A8BE53A00E5AC8D /* Int+Extension.swift in Sources */,
+				DDE1BC2B2A8B9B8800E5AC8D /* Tip.swift in Sources */,
+				DDE1BBD12A8B641500E5AC8D /* CalculatorVC.swift in Sources */,
+				DDE1BC242A8B87C000E5AC8D /* UIView+Extension.swift in Sources */,
+				DDE1BC0F2A8B686200E5AC8D /* LogoView.swift in Sources */,
+				DDE1BC1A2A8B761600E5AC8D /* ThemeColor.swift in Sources */,
+				DDE1BC132A8B69D000E5AC8D /* BillInputView.swift in Sources */,
+				DDE1BC1F2A8B766100E5AC8D /* UIColor+Extension.swift in Sources */,
+				DDE1BC112A8B699600E5AC8D /* ResultView.swift in Sources */,
+				DDE1BC3E2A8BF37900E5AC8D /* AudioPlayerService.swift in Sources */,
+				DDE1BC322A8BBB1000E5AC8D /* String+Extension.swift in Sources */,
 				DDE1BBCD2A8B641500E5AC8D /* AppDelegate.swift in Sources */,
+				DDE1BC1C2A8B762000E5AC8D /* ThemeFont.swift in Sources */,
+				DDE1BC282A8B95CE00E5AC8D /* HeaderView.swift in Sources */,
+				DDE1BC382A8BEC7300E5AC8D /* Double+Extension.swift in Sources */,
 				DDE1BBCF2A8B641500E5AC8D /* SceneDelegate.swift in Sources */,
+				DDE1BC222A8B7BBB00E5AC8D /* LabelFactory.swift in Sources */,
+				DDE1BC342A8BC91400E5AC8D /* UIResponder+Extension.swift in Sources */,
+				DDE1BC172A8B6A0300E5AC8D /* SplitInputView.swift in Sources */,
+				DDE1BC152A8B69EC00E5AC8D /* TipInputView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,6 +450,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DDE1BBE42A8B641700E5AC8D /* Tip_CalculatorTests.swift in Sources */,
+				DDE1BC402A8C1AD200E5AC8D /* Tip_CalculatorSnapshotTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,14 +479,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		DDE1BBD22A8B641500E5AC8D /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				DDE1BBD32A8B641500E5AC8D /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		DDE1BBD72A8B641700E5AC8D /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -442,7 +616,6 @@
 				INFOPLIST_FILE = "Tip-Calculator/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -470,7 +643,6 @@
 				INFOPLIST_FILE = "Tip-Calculator/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -602,6 +774,61 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		DDE1BBFF2A8B64BD00E5AC8D /* XCRemoteSwiftPackageReference "CombineCocoa" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/CombineCommunity/CombineCocoa";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.4.1;
+			};
+		};
+		DDE1BC022A8B64E300E5AC8D /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+		DDE1BC082A8B659700E5AC8D /* XCRemoteSwiftPackageReference "swift-snapshot-testing" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/pointfreeco/swift-snapshot-testing";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		DDE1BC002A8B64BD00E5AC8D /* CombineCocoa */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DDE1BBFF2A8B64BD00E5AC8D /* XCRemoteSwiftPackageReference "CombineCocoa" */;
+			productName = CombineCocoa;
+		};
+		DDE1BC032A8B64E300E5AC8D /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DDE1BC022A8B64E300E5AC8D /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+		DDE1BC062A8B653D00E5AC8D /* CombineCocoa */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DDE1BBFF2A8B64BD00E5AC8D /* XCRemoteSwiftPackageReference "CombineCocoa" */;
+			productName = CombineCocoa;
+		};
+		DDE1BC092A8B659700E5AC8D /* SnapshotTesting */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DDE1BC082A8B659700E5AC8D /* XCRemoteSwiftPackageReference "swift-snapshot-testing" */;
+			productName = SnapshotTesting;
+		};
+		DDE1BC0B2A8B65B800E5AC8D /* CombineCocoa */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DDE1BBFF2A8B64BD00E5AC8D /* XCRemoteSwiftPackageReference "CombineCocoa" */;
+			productName = CombineCocoa;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = DDE1BBC12A8B641400E5AC8D /* Project object */;
 }
